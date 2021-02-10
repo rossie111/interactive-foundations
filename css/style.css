@@ -106,3 +106,7 @@ https://css-tricks.com/the-shapes-of-css/
 .star:after {
 	transform: rotate(60deg);
 }
+
+.text {
+	text-transform: lowercase;
+}
