@@ -108,5 +108,5 @@ https://css-tricks.com/the-shapes-of-css/
 }
 
 .text {
-	text-transform: lowercase;
+	text-transform: capitalize;
 }
