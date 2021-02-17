@@ -1,0 +1,43 @@
+.shape{
+	position: absolute;
+	background: #f500b9;
+}
+
+.rectangle{
+	position: absolute;
+	width: 30px;
+	height: 110px;
+}
+
+
+.curve{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.letter{
+	position: relative;
+	width: 100px;
+	display: inline-block;
+}
+
+.bottom{
+	top: 100px;
+	transform: rotate(180deg);
+}
+
+.o-bar{
+	width: 30px;
+	height: 80px;
+	left: 30px;
+	top: 30px;
+}
+
+.o-bar.right{
+	left: 80px;
+}
