@@ -1,0 +1,21 @@
+body{
+	background: #ADFF2F;
+}
+
+.rectangle{
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	background: ghostwhite;
+	border-radius: 20px;
+}
+
+.magnetic-strip{
+	position: relative;
+	left: 25px;
+	width: 50px;
+	height: 600px;
+	background: black;
+}
+
+	
