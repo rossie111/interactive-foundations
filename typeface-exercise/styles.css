@@ -5,6 +5,9 @@ body { background: black;
 	background: #f500b9;
 }
 
+.r.letter{
+	left: 20px;
+}
 .rectangle{
 	position: absolute;
 	width: 30px;
@@ -20,6 +23,11 @@ body { background: black;
 	left: 30px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
+}
+
+.r.curve.shape{
+	width:70px;
+	position: absolute;
 }
 
 .letter{
@@ -42,4 +50,26 @@ body { background: black;
 
 .o-bar.right{
 	left: 80px;
+}
+
+.s-bar{
+	width: 30px;
+	height: 40px;
+	left: 30px;
+	top: 30px;
+	border-bottom-left-radius: 20px;
+}
+
+.middle.curve{
+	top:50px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 20px;
+}
+
+.s-bar.left{
+	left: 80px;
+	top: 80px;
+	border-bottom-right-radius: 20px;
 }
