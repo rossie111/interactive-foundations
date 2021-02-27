@@ -73,3 +73,24 @@ body { background: black;
 	top: 80px;
 	border-bottom-right-radius: 20px;
 }
+
+.i.letter{
+	left: 20px;
+}
+
+.i.rectangle.shape{
+	border-bottom-left-radius: 20px;
+	height: 90px;
+	top: 40px;
+}
+
+.i.dot.shape{
+	width: 30px;
+	height: 30px;
+
+}
+.i.dot.end.shape{
+	top: 100px;
+	right: 40px;
+	border-bottom-right-radius: 20px;
+}
