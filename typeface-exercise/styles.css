@@ -75,7 +75,7 @@ body { background: black;
 }
 
 .i.letter{
-	left: 20px;
+	left: 30px;
 }
 
 .i.rectangle.shape{
@@ -94,3 +94,84 @@ body { background: black;
 	right: 40px;
 	border-bottom-right-radius: 20px;
 }
+
+.e.rectangle.shape{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 20px;
+}
+
+.e.bar{
+	width: 60px;
+	height: 30px;
+	left:30px;
+}
+
+.e.bar.top.shape{
+	border-top-right-radius: 40px;
+}
+
+.e.bar.middle.shape{
+	transform: rotate(180deg);
+	top: 50px;
+	border-top-left-radius: 20px;
+}
+
+.e.bar.bottom.shape{
+	transform: rotate(180deg);
+	border-top-left-radius: 20px;
+}
+
+.e.right-bar.shape{
+	width: 30px;
+	height: 20px;
+	top: 30px;
+	right: 10px;
+}
+
+.l.rectangle.shape{
+	border-bottom-left-radius: 20px;
+	height: 130px;
+}
+
+.l.dot.end.shape{
+	top: 100px;
+	right: 40px;
+	width: 30px;
+	height: 30px;
+	border-bottom-right-radius: 20px;
+}
+
+.d.rectangle.shape{
+	right: 50px;
+	border-bottom-left-radius: 20px;
+	height: 130px;
+}
+
+.d.dot.end.shape{
+	top: 100px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	border-bottom-right-radius: 20px;
+}	
+.d.bar{
+	width: 60px;
+	height: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	left: -30px;	
+}
+
+.d.bar.top.shape{
+	top: 40px;
+}
+
+.d.bar.side.shape{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	transform: rotate(-90deg);
+	width: 40px;
+	top: 70px;
+	left: -35px;
+}
+
