@@ -256,3 +256,41 @@ body { background: black;
 	top: 83px;
 	left: 93px;
 }
+
+.a.rectangle.shape{
+	right: -75px;
+	border-bottom-left-radius: 20px;
+	height: 130px;
+}
+
+.a.dot.end.shape{
+	top: 100px;
+	right: -105px;
+	width: 30px;
+	height: 30px;
+	border-bottom-right-radius: 20px;
+}	
+.a.bar{
+	width: 60px;
+	height: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	left: 85px;	
+}
+
+.a.bar.top.shape{
+	top: 40px;
+}
+
+.a.bar.side.shape{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	transform: rotate(-90deg);
+	width: 40px;
+	top: 70px;
+	left: 80px;
+}
+
+.a.curve.shape{
+	left: 85px;
+}
