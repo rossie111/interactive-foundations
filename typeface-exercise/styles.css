@@ -175,3 +175,15 @@ body { background: black;
 	left: -35px;
 }
 
+.x.rectangle.shape{
+	transform: rotate(45deg);
+	left: 35px;
+	height: 150px;
+	top:-10px;
+}
+
+.x.rectangle.shape.left{
+	transform: rotate(-45deg);
+	left:40px;
+	
+}
