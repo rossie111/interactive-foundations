@@ -185,5 +185,42 @@ body { background: black;
 .x.rectangle.shape.left{
 	transform: rotate(-45deg);
 	left:40px;
-	
+}
+
+.g.rectangle.shape{
+	left: 100px;
+	height: 180px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 20px;
+}
+
+.g.bar{
+	width: 90px;
+	height: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	left: 30px;	
+}
+
+.g.bar.top.shape{
+	top: 0px;
+	border-top-left-radius: 40px;
+}
+
+.g.bar.side.shape{
+	border-top-right-radius: 0px;
+	transform: rotate(-90deg);
+	width: 70px;
+	top: 50px;
+	left: 10px;
+}
+.g.bar.bottom.shape{
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	top: 80px;
+}
+
+.g.bar.bottom.shape.two{
+	border-top-left-radius: 14px;
+	top: 150px;
 }
