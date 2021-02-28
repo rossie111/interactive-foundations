@@ -1,5 +1,9 @@
 body { background: black; 
 }
+
+body:hover div {
+	filter: blur(10px);
+}
 .shape{
 	position: absolute;
 	background: #f500b9;
