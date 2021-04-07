@@ -4,6 +4,8 @@ body {
 	border-style: dotted;
 	border-color: hsl(255, 100%, 88%);
 	border-width: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #Polaroid{
@@ -21,8 +23,36 @@ h1{
 	text-transform: uppercase;
 	margin: 10px;
 	letter-spacing: 10px;
+	font-weight: lighter;
+	color: hsl(255, 100%, 83%);
 }
 
 .desc{
 	font-family: 'Astloch', cursive;
+	font-size: 3rem;
+}
+
+h3 {
+	font-family: 'Monofett', cursive;
+	font-size: 60px;
+	color: hsl(306, 73%, 81%);
+}
+
+#exercises {
+	display: inline-block;
+}
+
+#exercises li a, #projects li a{
+	display: inline-block;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Tulpen One', cursive;
+}
+
+ul{
+	list-style: none;
 }
