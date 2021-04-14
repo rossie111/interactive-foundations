@@ -79,3 +79,16 @@ ul{
 	background: hsl(255, 100%, 88%);
 	border-color: hsl(255, 100%, 88%);
 }
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+body.darkmode button{
+	color: white;

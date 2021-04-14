@@ -5,24 +5,26 @@
   <title>Rosie Linares Díaz's interactive Site</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Black+And+White+Picture&family=Monofett&family=Tulpen+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   <!-- this is where my meta-info lives, but won’t show up on the page itself-->
 </head>
 <body>
   <!-- this is where all my webpage stuff should go-->
   <link rel="stylesheet" type="text/css" href="style.css">
   
-  <a href="https://ibb.co/XJBLvg0" hidden ><img src="https://i.ibb.co/JkLtM46/Test-Roll-2-012.jpg" alt="Test-Roll-2-012" border="0"></a>
+  <!-- a href="https://ibb.co/XJBLvg0" hidden ><img src="https://i.ibb.co/JkLtM46/Test-Roll-2-012.jpg" alt="Test-Roll-2-012" border="0"></a-->
 
-  <img id="Polaroid" src="RLD_Shedding, Remembering, Embracing_005.jpg" alt="ROSSIE">
+  <img id="Polaroid" src="photos/RLD_Shedding, Remembering, Embracing_005.jpg" alt="ROSSIE">
   
     
-    <pre hidden>
+    <!--pre hidden>
  _._     _,-'""`-._
 (,-.`._,'(       |\`-/|
     `-.-' \ )-`( , o o)
           `-    \`_`"'-
 
-    </pre>
+    </pre-->
 
     <!-- about me-->
     <h1>Rossie </h1>  
@@ -30,23 +32,34 @@
     
     <!-- links to my work -->
     <section>
-      <div id="exercises">
-        <h3>Exercise</h3>
-        <ul>
-          <li><a href="Class 2_InspectorSketches.png">Inspector Sketches</a></li>
-          <li><a href="https://www.figma.com/file/7AP0qYfG3eeKHgNKPieSL7/personal-alphabet-set?node-id=0%3A1">Figma sketch</a> </li>
-          <li><a href="css-still-life/index.html">CSS Still Life - Credit card</a>
-          <li><a href="https://www.figma.com/file/7AP0qYfG3eeKHgNKPieSL7/personal-alphabet-set?node-id=0%3A1">Figma sketch</a> </li>  
-          <li><a href="hover-exercise/index.html">Hover Exercise</a>
-        </ul> 
+      <div class="item">
+
+  <section class="container">
+    <button id="showhide">Toggle All</button>
+    <button id="darkmode">Dark Mode</button>
+    <div class="item">
+      <div class="heading">
+
+        <button id="exercises">
+          <h3>Exercises</h3></button>
+          <ul>
+            <li><a href="photos/Class 2_InspectorSketches.png">Inspector Sketches</a></li>
+            <li><a href="https://www.figma.com/file/7AP0qYfG3eeKHgNKPieSL7/personal-alphabet-set?node-id=0%3A1">Figma sketch</a> </li>
+            <li><a href="css-still-life/index.html">CSS Still Life - Credit card</a></li>
+            <li><a href="https://www.figma.com/file/7AP0qYfG3eeKHgNKPieSL7/personal-alphabet-set?node-id=0%3A1">Figma sketch</a> </li>  
+            <li><a href="hover-exercise/index.html">Hover Exercise</a></li>
+          </ul> 
+        </div>
       </div>
-     
-      <div id="projects">
-        <h3>Projects</h3>
-        <ul>
-          <li><a href="typeface-exercise/index.html">Typeface Letter Code</a></li>
-          <li><a href="cordovaweb/index.html">Community Archive: Cordova Web</a></li>
-        </ul>
+
+      <div class="item">
+        <div id="projects">
+          <h3>Projects</h3>
+          <ul>
+            <li><a href="typeface-exercise/index.html">Typeface Letter Code</a></li>
+            <li><a href="cordovaweb/index.html">Community Archive: Cordova Web</a></li> 
+          </ul>
+        </div>
       </div>
     </section>
 </body>
