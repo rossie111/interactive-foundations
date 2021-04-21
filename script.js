@@ -6,20 +6,21 @@ $(document).ready(function(){
 
 	//------------------------------------
 	// show hide each itme
-	//------------------------------------
 
-	$('.item').click(function(){
-		$(this).toggleClass('active');
+
+	// $('#exercises h3').click(function(){
+	// 	$('#exercises ul').toggle();
+	// });
+	
+	// $('#projects h3').click(function(){
+	// 	$('#projects ul').toggle();
+	// });
+
+
+
+	$('.toggle').click(function(){
+		$(this).next('ul').toggle();
 	});
-
-	//---------------------------
-	// setup show hide all button
-	//---------------------------
-	$("#showhide").click(function(){
-		
-		$('.item').toggleClass('active');
-	});
-
 	//------------------------------------
 	// adds a a darkmode class to the body
 	//------------------------------------
