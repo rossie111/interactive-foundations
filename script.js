@@ -16,6 +16,10 @@ $(document).ready(function(){
 	// 	$('#projects ul').toggle();
 	// });
 
+	$(".links").html(function(){
+		$("#showhide, #darkmode, .toggle").css("cursor","pointer");
+	});
+
 	$('#showhide').click(function(){
 		//$('.toggle').toggle('li');
 		$('.toggle').next('ul').toggle('li');

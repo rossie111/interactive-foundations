@@ -6,6 +6,8 @@ body {
 	border-width: 1em;
 	padding-left: 10px;
 	padding-right: 10px;
+	cursor: help;
+	padding: 1rem 1rem 5rem;
 }
 
 #Polaroid{
@@ -33,6 +35,7 @@ h1{
 	padding: 0 6rem;
 	margin: auto auto 5rem;
 }
+
 
 button {
 	background: hsla(300, 113%, 88%, 0.4);
