@@ -16,7 +16,10 @@ $(document).ready(function(){
 	// 	$('#projects ul').toggle();
 	// });
 
-
+	$('#showhide').click(function(){
+		//$('.toggle').toggle('li');
+		$('.toggle').next('ul').toggle('li');
+	});
 
 	$('.toggle').click(function(){
 		$(this).next('ul').toggle();

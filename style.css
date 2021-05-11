@@ -31,6 +31,24 @@ h1{
 	font-family: 'Astloch', cursive;
 	font-size: 3rem;
 	padding: 0 6rem;
+	margin: auto auto 5rem;
+}
+
+button {
+	background: hsla(300, 113%, 88%, 0.4);
+	border-color: hsl(295, 100%, 72%);
+	border-style: solid;
+	border-width: thin;
+	border-radius: 0px;
+	padding: 10px;
+	margin: 3px;
+	font-family: 'Tulpen One', cursive;
+	font-size: 30px;
+	transition: background-color .1s;
+	box-shadow: 5px 3px #888;
+	letter-spacing: 1rem;
+	font-weight: 700;
+	color: hsl(360, 60%, 20%);
 }
 
 h3 {
@@ -42,7 +60,7 @@ h3 {
 
 #exercises {
 	display: inline-block;
-	margin: 0;
+	margin: 5rem 0 auto;
 	padding: 0;
 }
 
