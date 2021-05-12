@@ -134,7 +134,7 @@ body.darkmode button{
 	}
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 360px){
 	h1{
 		margin-left: -.5rem;
 }
